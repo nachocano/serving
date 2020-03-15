@@ -49,7 +49,7 @@ required = [
   name = "github.com/jetstack/cert-manager"
   version = "v0.12.0"
 
-[[constraint]]
+[[override]]
   name = "github.com/gogo/protobuf"
   version = "v1.3.1"
 

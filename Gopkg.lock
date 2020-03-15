@@ -1841,8 +1841,8 @@
   revision = "0067e1ec0b672ac913a12bd15eb890cb7ee4fd51"
 
 [[projects]]
-  branch = "master"
-  digest = "1:087752cbad644085941d5dbe2a04ef0c285fed9205006a5a3d3816256ac0fecd"
+  branch = "rt_registry"
+  digest = "1:e4d49bfeadfc3f0e31b622382293dd85943f80164f3c64bbf0389aa462036fca"
   name = "knative.dev/pkg"
   packages = [
     "apis",
@@ -1952,7 +1952,8 @@
     "websocket",
   ]
   pruneopts = "T"
-  revision = "1893541a0fac5885032c8ec170fd81234de13f4a"
+  revision = "4ad3428483365e4cc70ed315cbd30244c90e19c3"
+  source = "github.com/nachocano/pkg"
 
 [[projects]]
   branch = "master"
@@ -2014,6 +2015,7 @@
     "github.com/google/mako/clients/proto/analyzers/threshold_analyzer_go_proto",
     "github.com/google/mako/go/quickstore",
     "github.com/google/mako/spec/proto/mako_go_proto",
+    "github.com/google/uuid",
     "github.com/gorilla/websocket",
     "github.com/hashicorp/golang-lru",
     "github.com/jetstack/cert-manager/pkg/apis/acme/v1alpha2",
